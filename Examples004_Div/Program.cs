@@ -1,5 +1,11 @@
-﻿double NumberA = 12;
-double NumberB = 5;
+﻿//double NumberA = 12;
+//double NumberB = 5;
+double NumberA = new Random().Next(1,30);
+Console.Write ("Число ");
+Console.Write(NumberA);
+double NumberB = new Random().Next(1,30);
+Console.Write(" Разделить на ");
+Console.Write(NumberB);
 double Sum = NumberA/NumberB;
-Console.Write(" Деление двух чисел равна  ");
+Console.Write(" Будет равно  ");
 Console.Write(Sum);
